@@ -7,11 +7,13 @@ const Header = () => {
   return (
     <header className="py-8">
       <div className="container mx-auto">
-        <div className='flex justify-between items-center'>
+        <div className="flex justify-between items-center">
           <a href="#">
-            <img src={Logo}  alt="" />
+            <img src={Logo} alt="" />
           </a>
-          <button className="btn btn-sm">Hire me Now</button>
+          <button className="btn btn-sm">
+            <a href="https://www.linkedin.com/in/devsahadat/" target='_blank'>Hire me Now</a>
+          </button>
         </div>
       </div>
     </header>

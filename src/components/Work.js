@@ -32,7 +32,9 @@ const Work = () => {
                 for more details about my previous work.
               </p>
               <button className="btn btn-sm text-black">
-                View all projects
+                <a href="https://github.com/devsahadat/" target="_blank">
+                  View all projects
+                </a>
               </button>
             </div>
             {/* image */}
